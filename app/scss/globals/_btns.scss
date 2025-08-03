@@ -1,0 +1,26 @@
+@use "../util" as *;
+.btns {
+ position: absolute;
+ width: 100%;
+ top: 3%;
+ right: 0;
+ z-index: 5;
+ button {
+  position: absolute;
+  // width: 20ch;
+  font-size: rem(19);
+  top: 3%;
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: var(--logo-clr);
+  font-weight: bold;
+ }
+ .dark-mode-btn {
+  right: 2%;
+ }
+ span {
+  display: none;
+ }
+}

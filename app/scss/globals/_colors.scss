@@ -1,0 +1,40 @@
+:root {
+ --bg-clr-li: oklch(19.125% 0.00002 271.152);
+ --bg-clr-dm: oklch(79.125% 0.00002 271.152);
+ --main-clr-li: oklch(32.109% 0.00004 271.152);
+ --main-clr-dm: oklch(89.109% 0.00004 271.152);
+ --card-bg-li: oklch(23.929% 0.00003 271.152);
+ --card-bg-dm: oklch(83.929% 0.00003 271.152);
+ --secondary-clr-li: oklch(91.127% 0.21624 123.808);
+ --secondary-clr-dm: oklch(30.127% 0.31624 123.808);
+ --white-li: hsl(0, 0%, 100%);
+ --white-dm: hsl(0, 0%, 0%);
+ // logo
+ --about-clr-li: hsl(0, 0%, 95%);
+ --about-clr-dm: hsl(0, 0%, 10%);
+ --logo-bg-li: hsl(0, 0%, 10%);
+ --logo-bg-dm: hsl(0, 0%, 80%);
+ --logo-clr-li: hsl(119, 50%, 39%);
+ --logo-clr-dm: hsl(119, 50%, 30%);
+ --about-clr: var(--about-clr-li);
+ --logo-bg: var(--logo-bg-li);
+ --logo-clr: var(--logo-clr-li);
+ // logo
+ --main-clr: var(--main-clr-li);
+ --secondary-clr: var(--secondary-clr-li);
+ --card-bg: var(--card-bg-li);
+ --bg-clr: var(--bg-clr-li);
+ --white: var(--white-li);
+}
+.dark-mode {
+ --main-clr: var(--main-clr-dm);
+ --secondary-clr: var(--secondary-clr-dm);
+ --card-bg: var(--card-bg-dm);
+ --bg-clr: var(--bg-clr-dm);
+ --white: var(--white-dm);
+ // logo
+ --about-clr: var(--about-clr-dm);
+ --logo-bg: var(--logo-bg-dm);
+ --logo-clr: var(--logo-clr-dm);
+ // logo
+}
