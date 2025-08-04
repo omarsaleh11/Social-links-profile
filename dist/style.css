@@ -249,20 +249,26 @@ body {
           flex-direction: column;
   gap: 1rem;
 }
-.card .linktree li button {
-  background-color: var(--main-clr);
-  border: none;
-  color: var(--white);
+.card .linktree li {
   width: 17.375rem;
-  height: 2.8125rem;
-  padding: 0.625rem 1rem;
-  border-radius: 0.3125rem;
   cursor: pointer;
-  font-size: 0.8625rem;
+  text-align: center;
+  height: 2.8125rem;
+  border-radius: 0.3125rem;
+  background-color: var(--main-clr);
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
-.card .linktree li button:hover {
+.card .linktree li:hover {
   background-color: var(--secondary-clr);
+}
+.card .linktree li:hover a {
   color: var(--secondary-hvr);
+}
+.card .linktree li a {
+  color: var(--white);
+  font-size: 0.8625rem;
+  font-weight: 500;
 }
 
 .linktree {
